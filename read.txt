@@ -30,5 +30,8 @@
           git branch -b ''
           git reset HEAD 文件名  撤销暂存钱
           git commit --amend 撤销提交
+
+          git remote -v 查看别名
+          git remote add name 远程连接
       暂存区
       版本库
