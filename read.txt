@@ -1,0 +1,34 @@
+安装git
+    --git -version
+
+初始化
+   -- git config --global user.name 'lj'
+   -- git config --global user.email '3187416211@qq.com'
+   -- git confgi --list
+
+对象
+    -- git对象 key:val组成的刍键值 blob类型
+
+     树对象 提交对象
+区域
+    --工作区 不会交给git管理
+          初始化 git init
+          git add ./将文件放入暂存区  先将文件创建为git对象 再入到暂存区
+          git commit -m '消息'  将暂存区提交到版本库
+          git status 查看文件的状态
+          git diff 查看修改未暂存
+          git commit -a  路过暂存区，直接
+          git rm 删除指定文件 再添加到缓存钱 rm ...  git add ./
+          git branch 创建分支
+
+          git checkout name 切换分支
+          git branch -d name 删除分支
+
+          git branch -v 查看最后提交的时间
+          git branch name 提交对象  创建一个分支指向这个提交对象
+          git merge
+          git branch -b ''
+          git reset HEAD 文件名  撤销暂存钱
+          git commit --amend 撤销提交
+      暂存区
+      版本库

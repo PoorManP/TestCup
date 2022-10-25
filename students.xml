@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student id="20100101">
+        <name>王宏</name>
+        <uml>90</uml>
+        <oracle>88</oracle>
+        <java>96</java>
+    </student>
+    <student id="20100102">
+        <name>李娜</name>
+        <uml>70</uml>
+        <oracle>56</oracle>
+        <java>76</java>
+    </student>
+    <student id="20100103">
+        <name>孙武</name>
+        <uml>80</uml>
+        <oracle>77</oracle>
+        <java>70</java>
+    </student>
+</students>
